@@ -1,0 +1,92 @@
+body{
+    /* width: 100%; */
+}
+section{
+    padding-bottom: 30px;
+}
+.display{
+    display: flex;
+}
+.score{
+    padding-left: 200px;
+    position: fixed;
+}
+#score1{
+    font-size: 18px !important;
+}
+#score2{
+    font-size: 18px ;
+}
+.colon{
+    font-size: 18px ;
+}
+
+button{
+    width: 70%;
+    background-color: #fff;
+    height: 20vh;
+    font-size: 60px;
+    border: #fff ;
+    cursor: pointer;
+    
+}
+.restart{
+    background-color: #195  !important ;
+    width: 15% !important;
+    font-size: 23px;
+    height: 13% !important;
+    border: 3px solid #195 ;
+    border-radius: 15px;
+   margin-left: 50px;
+   color: #fff;
+}
+
+#btn1{
+    padding-top: 100px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-11{
+    width: 91.67%;
+}
+.col-2{
+    width: 16.67%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.67%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+width: 58.33%;
+}
+.col-8{
+    width: 66.67%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-12{
+    width: 100%;
+}
+.row{
+    display: flex;
+    width: 50%;
+}
+.row::after{
+    display: block;
+    clear: both;
+    content: " ";
+}
